@@ -28,11 +28,11 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↑更新処理ここまで
 		///
-
+		int num;
 		///
 		/// ↓描画処理ここから
 		///
-
+		Novice::DrawEllipse(50, 50, 20, 20, 0.0f, RED, kFillModeWireFrame);
 		///
 		/// ↑描画処理ここまで
 		///
