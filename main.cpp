@@ -32,7 +32,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↓描画処理ここから
 		///
-		Novice::DrawEllipse(50, 50, 20, 20, 0.0f, RED, kFillModeWireFrame);
+		Novice::DrawEllipse(50, 50, 20, 20, 0.0f, WHITE, kFillModeWireFrame);
 		///
 		/// ↑描画処理ここまで
 		///
