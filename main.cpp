@@ -11,7 +11,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	// キー入力結果を受け取る箱
 	char keys[256] = {0};
 	char preKeys[256] = {0};
-
+	int PlayerPosx = 100;
 	// ウィンドウの×ボタンが押されるまでループ
 	while (Novice::ProcessMessage() == 0) {
 		// フレームの開始
@@ -34,6 +34,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		Novice::DrawEllipse(50, 50, 20, 20, 0.0f, WHITE, kFillModeWireFrame);
 		Novice::DrawBox(50, 50, 30, 30, 0.0f, RED, kFillModeSolid);
+		Novice::DrawEllipse(PlayerPosx, 100, 20, 20, 0.0f, GREEN, kFillModeSolid);
 		///
 		/// ↑描画処理ここまで
 		///
