@@ -32,9 +32,11 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↓描画処理ここから
 		///
+
 		Novice::DrawEllipse(50, 50, 20, 20, 0.0f, WHITE, kFillModeWireFrame);
 		Novice::DrawBox(50, 50, 30, 30, 0.0f, RED, kFillModeSolid);
-		Novice::DrawEllipse(PlayerPosx, 100, 20, 20, 0.0f, GREEN, kFillModeSolid);
+		Novice::DrawEllipse(PlayerPosx, 150, 20, 20, 0.0f, GREEN, kFillModeSolid);
+
 		///
 		/// ↑描画処理ここまで
 		///
